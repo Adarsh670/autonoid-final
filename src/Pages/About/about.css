@@ -1,0 +1,146 @@
+.page-title {
+    background-color: #f1f1f1;
+    min-height: 30px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    min-height: 150px;
+    gap: 0;
+  }
+  .page-title h2{
+      margin-bottom: 0;
+      font-weight: 700;
+      font-size: 44px;
+  }
+  .page-title p{
+      font-size: 13px;
+      font-weight: 500;
+  }
+  
+  .about-main{
+      margin-top: 60px;
+      overflow: hidden;
+
+      padding: 0px 10px;
+  }
+  .about-main-left h1{
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: #a9cf38;
+  }
+  .about-main-left p{
+      color: #454545;
+      font-size: 17px;
+      word-spacing: 1px;
+      text-align: left;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+  }
+  .about-main-left span{
+      /* text-transform: uppercase; */
+      color: #111;
+      margin: 0;
+      font-weight: 800;
+      font-size: 19px;
+      font-family: 'Poppins', sans-serif;
+  }
+  .about-main-right{
+      overflow: hidden;
+  }
+  .about-question{
+      display: flex;
+      align-items: center;
+  }
+  
+  .about-question-left{
+      background-color: #a9cf38;
+      padding: 10px 15px;
+  }
+  .about-question-right{
+      background-color: #001232;
+      padding: 10px 20px;
+      color: #fff !important;
+     text-transform: lowercase;
+  }
+/*Vision section */
+.vision-section{
+    margin-top: 100px;
+}
+.vision-section .row .col-lg-6 div{
+    border: 1px solid #82a321;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 330px;
+}
+.vision-section h1{
+    color: #fff;
+    background-color: #82a321;
+    padding: 0px 20px;
+}
+
+
+  /* cards */
+  .vision-cards{
+      margin-top: 100px;
+  }
+  
+  .vision-card .card{
+      background-color: #82a321;
+      border-radius: 0px !important;
+      margin-bottom: 10px;
+  }
+  .vision-card .card-text{
+      font-weight: 600;
+      font-size: 20px;
+  }
+ 
+  /* Vision global */
+  .vision-global{
+      margin-top: 100px;
+  }
+  .vision-global-left {
+     display: flex;
+     justify-content: center;
+  }
+  .vision-global-right{
+      padding: 0px 30px;
+  }
+  .vision-global-right h1{
+      font-weight: 700;
+      font-size: 40px;
+      color: #82a321;
+      margin-bottom: 0;
+  }
+  .vision-global-right p{
+      font-size: 20px;
+      font-weight: 500;
+  }
+  
+  .vision-global-right span{
+      /* padding: 0px 20px; */
+      font-size: 15px;
+      color: #454545;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      text-align: justify !important;
+      line-height: 25px;
+      font-weight: 300;
+  }
+  .vision-global-right h2{
+      font-weight: 500;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 30px;
+      color: #82a321;
+  }
+  .vision-global-right ul li{
+      font-size: 15px;
+      color: #454545;
+      font-family: 'Poppins', sans-serif;
+      text-align: justify !important;
+      font-weight: 300;
+      margin: 10px 0;
+  }
